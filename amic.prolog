@@ -5,4 +5,4 @@
 
 	prime(X) :- (571**(X-1)) mod X = 1.
 	not(X) :- X, !, fail.
-	not(_).
+	not(_)..
