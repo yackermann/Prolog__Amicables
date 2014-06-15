@@ -1,8 +1,9 @@
 %editor amic.prolog
 	go :- 
-		prime(12),
-		write('is prime').
-
+		X = 13,
+		prime(X),
+		write('The number is a prime.');
+		write('The number is not a prime.').
 
 	prime(X) :- 
 		Z is 571**(X-1),
