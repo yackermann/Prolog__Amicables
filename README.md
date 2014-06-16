@@ -1,4 +1,5 @@
 Amicable numbers generator on prolog:
+=====================================
 Idea:
 https://en.wikipedia.org/wiki/Amicable_numbers
 
