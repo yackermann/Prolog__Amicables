@@ -12,5 +12,10 @@
 	prime(X) :-
 		X = 571.
 
-	 not(X) :- X, !, fail.
-	 not(_).
+	factor(X) :-
+		X mod 2 =:= 0,
+
+	factor(X) :-
+
+	not(X) :- X, !, fail.
+	not(_).
